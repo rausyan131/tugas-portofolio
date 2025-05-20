@@ -262,6 +262,12 @@ nav ul li a {
   border-radius: var(--itemBorderRadius);
   overflow: hidden; /* supaya gambar yang diatas itu dia ngikut border radiusnya, karena yang dikasih border radius disini adalah div portfolio ini */
   border: 1px solid var(--borderColor);
+  padding: 20px;
+}
+
+.portfolio-content{
+  padding: 20px;
+
 }
 
 .portfolio-cover {
@@ -317,7 +323,7 @@ nav ul li a {
   padding: 0.4rem 1rem;
   color: var(--secondaryTextColor);
 }
-
+ 
 /* Skills and Education */
 #skills {
   padding: var(--sectionPadding);
